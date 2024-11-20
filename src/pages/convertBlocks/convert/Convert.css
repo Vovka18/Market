@@ -1,0 +1,122 @@
+.Convert{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+}
+.ConvertWrapper{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+    padding: 0px 16px;
+}
+
+.ConvertWrapper h2{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 32px;
+}
+.ConvertWrapper .inputs{
+    width: 100%;
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.ConvertWrapper .inputs .twoInput{
+    width: 100%;
+    height: 88px;
+    background: #0E1626;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 14px 14px 14px 14px;
+}
+.ConvertWrapper .inputs .twoInput .splitInput{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ConvertWrapper .inputs .inputBlock{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 33px;
+}
+
+.ConvertWrapper .inputs .twoInput .splitInput .inputBlock select{
+    min-width: 70%;
+    height: 100%;
+    background: #0E1626;
+    border: 0px;
+    color: white;
+    font-size: 13px;
+}
+.ConvertWrapper .inputs .svg{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 33px;
+}
+
+.ConvertWrapper .inputCurrency{
+    width: 100%;
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    background: #0e1626;
+    border-radius: 14px;
+    padding: 0px 10px;
+}
+.ConvertWrapper .inputCurrency .currency{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ConvertWrapper .inputCurrency .currency svg{
+    width: 24px;
+    height: 24px;
+}
+.ConvertWrapper .inputCurrency span {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 77%;
+    color: #f3f3f3;
+    margin-left: 12px;
+}
+.ConvertWrapper .inputCurrency select{
+    width: 80%;
+    height: 100%;
+    background: #0E1626;
+    border: 0px;
+    color: white;
+    font-size: 13px;
+    border-radius: 0px 14px 14px 0px;
+}
+.ConvertWrapper input{
+    width: 100%;
+    height: 49px;
+    background: #0E1626;
+    border: 0px;
+    color: white;
+    font-size: 13px;
+    border-radius: 14px;
+    padding: 0px 16px;
+}
+.ConvertWrapper .button{
+    display: flex;
+    justify-content: center;
+}
+.ConvertWrapper .button button{
+    width: 170px;
+    height: 34px;
+    margin-top: 48px;
+}

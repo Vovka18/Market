@@ -1,0 +1,39 @@
+.WithdrawApprove{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+}
+.WithdrawApproveWrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+}
+.WithdrawApproveWrapper .Approve{
+    width: 290px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.WithdrawApproveWrapper .Approve h2{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+.WithdrawApproveWrapper .Approve button{
+    width: 153px;
+    height: 34px;
+    margin-top: 45px;
+    font-weight: 700;
+    font-size: 16px;
+}

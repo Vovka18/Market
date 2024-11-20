@@ -1,0 +1,59 @@
+.WithdrawBank{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+}
+.WithdrawBankWrapper{
+    width: 100%;
+    min-height: calc(100vh - 52px);
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+    padding: 0px 16px;
+}
+.WithdrawBankWrapper h2{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 32px;
+}
+.WithdrawBankWrapper .inputs{
+    width: 100%;
+    min-height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.WithdrawBankWrapper .details{    
+    min-height: 268px;
+}
+.WithdrawBankWrapper .inputs *{
+    width: 100%;
+    height: 44px;
+    border-radius: 14px;
+    background: #0E1626;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 130%;
+    color: rgba(243, 243, 243, 0.4);
+    border: 0px;
+    outline: 0px;
+    padding: 13px 20px;
+}
+.WithdrawBankWrapper button{
+    width: 153px;
+    height: 34px;
+    margin-top: 45px;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 47px;
+}
+.WithdrawBankWrapper p{
+    text-align: center;
+    margin-top: 43px;
+}

@@ -1,0 +1,75 @@
+.SurfaceBlock{
+    width: 95%;
+    height: 474px;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 23px 52px 24px;
+    position: absolute;
+    transform: translateY(-200%);
+    transition: .5s;
+}
+.SurfaceBlockActive{
+    transform: translateY(0%);
+}
+.SurfaceBlock .textBlock{
+    width: 100%;
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.SurfaceBlock .textBlock .SurfaceHeadline{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.SurfaceBlock .textBlock .SurfaceHeadline h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+.SurfaceBlock .textBlock p{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.SurfaceBlock .SurfaceChois{
+    width: 100%;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SurfaceBlock .SurfaceChois > div {
+    width: 100%;
+    height: 147px;
+    background: rgba(14, 22, 38, 0.77);
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+    padding: 32px 17px;
+    display: flex;
+    align-items: center;
+}
+
+.SurfaceBlock .SurfaceChois > div .text {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-left: 17px;
+}
+
+.SurfaceBlock .SurfaceChois > div .text h2{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 3px;
+}    
+.SurfaceBlock .SurfaceChois > div .text p{
+    font-weight: 600;
+    font-size: 13px;
+    color: rgba(243, 243, 243, 0.4);
+}

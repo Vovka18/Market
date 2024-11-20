@@ -1,0 +1,82 @@
+.Transactions{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+}
+.TransactionsWrapper{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+    padding: 0px 16px;
+}
+
+.TransactionsWrapper h2{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 32px;
+}
+
+.TransactionsWrapper .historyTransaction{
+    width: 100%;
+    margin-top: 32px;
+}
+
+.TransactionsWrapper .historyTransaction ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+.TransactionsWrapper .historyTransaction ul li{
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgba(243, 243, 243, 0.4);
+
+}
+
+.TransactionsWrapper .history{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.TransactionsWrapper .history li {
+    width: 100%;
+    height: 63px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TransactionsWrapper .history li:nth-child(1) {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.TransactionsWrapper .history li p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 130%;
+    color: #f3f3f3;
+    text-align: left;
+}
+.TransactionsWrapper .history li .name {
+    width: 80px;
+}
+.TransactionsWrapper .history li .id {
+    min-width: 28px;
+}
+.TransactionsWrapper .history li .sum {
+    text-align: right;
+    color: #01bc8d;
+}
+.TransactionsWrapper .history li .minus {
+    text-align: right;
+    color: #f66754;
+}
+.TransactionsWrapper .history li .date {
+    text-align: right;
+}

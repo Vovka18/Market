@@ -1,0 +1,101 @@
+.Assets{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+    /* overflow: auto; */
+}
+.Assets .assetsWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Assets .assetsWrapper .myActiv{
+    width: 100%;
+    height: 119px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 16px;
+    margin-top: 32px;
+}
+.Assets .assetsWrapper .myActiv p{
+    font-weight: 700;
+    font-size: 13px;
+    color: rgba(243, 243, 243, 0.4);
+}
+.Assets .assetsWrapper .myActiv h2{
+    font-weight: 700;
+    font-size: 18px;
+    color: #f3f3f3;
+}
+.Assets .assetsWrapper .myActiv .countActiv{
+    width: 100%;
+    height: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Assets .assetsWrapper .myActiv .countActiv h2 span{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(243, 243, 243, 0.4);
+
+}
+.Assets .assetsWrapper .myActiv .usd{
+    font-weight: 700;
+    font-size: 13px;
+    color: #01bc8d;
+
+}
+.Assets .assetsWrapper .myActiv .usd span {
+    color: rgba(243, 243, 243, 0.4);
+}
+
+.Assets .assetsWrapper .btnMenu{
+    width: 100%;
+    height: 52px;
+    padding: 0px 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+.Assets .assetsWrapper .btnMenu button{
+    padding: 7px 10px;
+    border: 0px;
+    outline: 0px;
+    border: 1px solid #f3f3f3;
+    border-radius: 17px;
+    background: #00000000;
+    font-weight: 700;
+    font-size: 13px;
+    color: #f3f3f3;
+    transition: .2s;
+}
+.Assets .assetsWrapper .btnMenu button:hover{
+    background: #01bc8d;
+    border: 0px;
+    border: 1px solid #01bc8d;
+}
+.Assets .assetsWrapper .btnMenu button .BtnActive{
+    background: #01bc8d;
+    border: 1px solid #01bc8d;
+}
+
+
+
+
+.WrapperBlock{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

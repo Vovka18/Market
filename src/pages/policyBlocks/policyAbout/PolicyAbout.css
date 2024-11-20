@@ -1,0 +1,56 @@
+.PolicyAbout {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+}
+
+.PolicyAboutWrapper {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+    padding: 0px 16px;
+}
+
+.PolicyAboutWrapper h2 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 32px;
+    text-align: center;
+}
+.PolicyAboutWrapper p{
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #f3f3f3;
+}
+.PolicyAboutWrapper .OurValues{
+    width: 100%;
+    margin-top: 52px;
+}
+.PolicyAboutWrapper .OurValues .ValuesWrapper{
+    width: 100%;
+    height: 407px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.PolicyAboutWrapper .OurValues .ValuesWrapper .Values{
+    width: 48%;
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+.PolicyAboutWrapper .OurValues .ValuesWrapper .Values p{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 160%;
+    text-align: center;
+    color: #f3f3f3;
+}

@@ -1,0 +1,44 @@
+.Policy {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+}
+
+.PolicyWrapper {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #121e3a 0%, #0e1525 100%);
+    position: relative;
+    padding: 0px 16px;
+}
+
+.PolicyWrapper h2 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 32px;
+}
+.PolicyWrapper ol {
+    margin-top: 32px;
+    padding: 0px 16px;
+    line-height: 215%;
+}
+.PolicyWrapper ol li {
+    margin-bottom: 28px;
+}
+.PolicyWrapper ol li ul{
+    margin-top: 28px;
+    list-style: disc;
+}
+.PolicyWrapper ol li span{
+    font-weight: 700;
+}
+.PolicyWrapper ol li p, .PolicyWrapper ol li ul{
+    margin-top: 28px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #f3f3f3;
+}
+
